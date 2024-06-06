@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+}
+.container {
+  outline: 2px red;
+  display: flex;
+  margin: 10px;
+}
+#landing-page-image {
+  outline: 2px red;
+  width: 50%;
+  height: 100%;
+}
+
+#landing-page-form {
+  outline: 2px red;
+  width: 50%;
+  height: 100%;
+}
