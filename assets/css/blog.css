@@ -1,0 +1,42 @@
+:root {
+  --background-light: #ffffff;
+  --text-light: #000000;
+  --background-dark: #333333;
+  --text-dark: #ffffff;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-light);
+  color: var(--text-light);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: var(--background-dark);
+  color: var(--text-dark);
+}
+
+.post {
+  margin: auto;
+  border: 5px solid black;
+  background-color: beige;
+  color: var(--text-light);
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#made-w {
+  text-align: center;
+}
+
+footer {
+  background-color: var(--background-light);
+  color: var(--text-light);
+}
